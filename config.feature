@@ -7,11 +7,7 @@ Funcionalidade: Configurar Produto
 
         Esquema do Cenario: Configurar produto
         Dado que eu acesse a pagina de autenticacao do portal EBAC-SHOP
-        Quando selecionar um produto
-        E selecionar um <tamanho>
-        E selecionar uma <cor>
-        E selecionar a <quantidade>
-        E clico em limpar
+        Quando selecionar as caracteristicas <tamanho> <cor> <quantidade> do produtos e clicar em limpar
         Entao todas as configuracoes voltam para a original
 
         Exemplos:

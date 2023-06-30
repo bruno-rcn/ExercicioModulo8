@@ -7,14 +7,8 @@ Funcionalidade: Tela de cadastro - Checkout
 
     Esquema do Cenario: Concluir cadastro
         Dado que eu acesse a pagina de autenticacao do portal EBAC-SHOP
-        Quando adicionar um produto ao carrinho
-        E clicar para ver carrinho
-        E clicar em concluir compra
-        E preencher os campos <nome> <sobrenome> <pais> <endereco> <cidade> <cep> <telefone> <email>
-        Eclico em criar uma conta
-        E digito uma <senha>
-        E aceitar os termos e condicoes
-        E clicar em finalizar compra
+        Quando preencho os campos <nome> <sobrenome> <pais> <endereco> <cidade> <cep> <telefone> <email> <senha> para concluir a compra
+        E clico para finalizar a compra
         Entao recebo a <mensagem> 
 
         Exemplos:
